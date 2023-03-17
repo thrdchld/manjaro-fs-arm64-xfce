@@ -4,20 +4,16 @@
 
 > Manjaro rootfs with `xfce4` and `vncserver` preinstalled. Just setup username, password and vnc password.
 
-## There are two releases
-### 1. Manjaro
-Manjaro arm64 with xfce4, xfce4-goodies, tigervnc and (no Anki)
 
-### 2. Anki
-Anki with Manjaro (xfce4 only, latest Anki and tigervnc)
+Manjaro arm64 with xfce4, xfce4-goodies, tigervnc
 
-|  | Manjaro 21.1.1  | Anki 2.1.47  |
-| :---:   | :-: | :-: |
-| vncserver | tigervnc | tigervnc |
+|  | Manjaro 21.1.1  |
+| :---:   | :-: |
+| vncserver | tigervnc |
 | Anki | No | Yes |
-| Download size | 1.0 GB | 0.7 GB |
-| Installed Size | 4.0 GB | 2.8 GB |
-| Desktop Env. | xfce4, xfce4-goodies | xfce4 (minimal) |
+| Download size | 1.0 GB |
+| Installed Size | 4.0 GB |
+| Desktop Env. | xfce4, xfce4-goodies |
 
 # QuickStart
 1. Copy and run commands below in [Termux](https://f-droid.org/en/packages/com.termux)
