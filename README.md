@@ -124,7 +124,7 @@ sudo pacman -S xfce4 xfce4-goodies
 # License and Credits
 - [Manjaro ARM](https://manjaro.org/)
 
-- Manjaro on Android (manjaro-fs-arm64)(https://github.com/krmanik/manjaro-fs-arm64)<br>
+- [Manjaro on Android (manjaro-fs-arm64)](https://github.com/krmanik/manjaro-fs-arm64)<br>
     Mani (Infinyte7)<br>GPL v3
 
 - [AndronixOrigin](https://github.com/AndronixApp/AndronixOrigin)<br>MIT License
