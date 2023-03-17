@@ -10,7 +10,6 @@ Manjaro arm64 with xfce4, xfce4-goodies, tigervnc
 |  | Manjaro 21.1.1  |
 | :---:   | :-: |
 | vncserver | tigervnc |
-| Anki | No | Yes |
 | Download size | 1.0 GB |
 | Installed Size | 4.0 GB |
 | Desktop Env. | xfce4, xfce4-goodies |
