@@ -1,6 +1,6 @@
 # Manjaro arm64 rootfs with xfce4 and tigervnc
 
-![](images/screen1.jpg)
+![](manjaro.png)
 
 > Manjaro rootfs with `xfce4` and `vncserver` preinstalled. Just setup username, password and vnc password.
 
