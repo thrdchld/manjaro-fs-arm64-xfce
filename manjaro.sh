@@ -162,7 +162,7 @@ install() {
       continue
     fi
     mkdir -p "${directory}" 2>&1 >/dev/null
-    manjaro_rootfs="https://github.com/infinyte7/manjaro-fs-arm64/releases/download/v0.0.6-manjaro-rootfs/manjaro-rootfs-latest.tar.gz"
+    manjaro_rootfs="https://github.com/iecxiv/manjaro-fs-arm64/releases/download/manjarorootfs/manjaro-rootfs-latest.tar.gz"
     size=$(curl -sLI "${manjaro_rootfs}" | awk '/content-length/ {printf "%i", ($2/1024)/1024}')
     (curl -sL "${manjaro_rootfs}" | pv -ns "${size}m" - | proot -l tar -xzf - -C "${directory}") 2>&1 | \
       dialog --title "Manjaroid install" --gauge "Installing Manjaro (${size}MB)..." -1 -1
