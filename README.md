@@ -28,7 +28,7 @@ Manjaro arm64 with xfce4, xfce4-goodies, tigervnc
 ## Manjaro arm64 with xfce4, xfce4-goodies and tigervnc
 Copy and run it in Termux
 ```
-pkg install wget && wget https://raw.githubusercontent.com/infinyte7/manjaro-fs-arm64/main/manjaro.sh && chmod +x manjaro.sh && ./manjaro.sh
+pkg install wget && wget https://raw.githubusercontent.com/iecxiv/manjaro-fs-arm64/main/manjaro.sh && chmod +x manjaro.sh && ./manjaro.sh
 ```
 
 ## To proot into already installed rootfs
