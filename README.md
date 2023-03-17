@@ -114,6 +114,13 @@ Copy and run in Manjaro proot
 ```
 wget https://raw.githubusercontent.com/infinyte7/manjaro-fs-arm64/main/scripts/fix-libreoffice.py && python fix-libreoffice.py
 ```
+
+## 8. Black screen on VNC viewer?
+There are many solutions for that. But in some cases reinstalling desktop environment may solve the problems.
+For example: xfce4, run this to install xfce4.
+```
+sudo pacman -S xfce4 xfce4-goodies
+```
 # License and Credits
 - [Manjaro ARM](https://manjaro.org/)
 
