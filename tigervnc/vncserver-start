@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-export USER=$USER
-export HOME=$HOME
-
-vncserver -localhost -name localhost :1
