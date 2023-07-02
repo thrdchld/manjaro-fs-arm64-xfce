@@ -1,4 +1,4 @@
-# Manjaro arm64 rootfs with xfce4 and tigervnc
+# Manjaro arm64 rootfs with xfce4, tigervnc, & AUR enabled (yay)
 
 ![](manjaro.png)
 
@@ -10,8 +10,8 @@ Manjaro arm64 with xfce4, xfce4-goodies, tigervnc
 |  | Manjaro 21.1.1  |
 | :---:   | :-: |
 | vncserver | tigervnc |
-| Download size | 1.0 GB |
-| Installed Size | 4.0 GB |
+| Download size | 2.4 GB |
+| Installed Size | 5.5 GB |
 | Desktop Env. | xfce4, xfce4-goodies |
 
 # QuickStart
@@ -27,7 +27,7 @@ Manjaro arm64 with xfce4, xfce4-goodies, tigervnc
 ## Manjaro arm64 with xfce4, xfce4-goodies and tigervnc
 Copy and run it in Termux
 ```
-pkg install wget && wget https://raw.githubusercontent.com/iecxiv/manjaro-fs-arm64/main/manjaro.sh && chmod +x manjaro.sh && ./manjaro.sh
+pkg install wget && wget https://raw.githubusercontent.com/thrdchld/manjaro-fs-arm64-xfce/main/manjaro.sh && chmod +x manjaro.sh && ./manjaro.sh
 ```
 
 ## To proot into already installed rootfs
